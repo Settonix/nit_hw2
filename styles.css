@@ -1,16 +1,27 @@
-section {
+body,
+html {
+    padding: 0;
+    margin: 0;
     background: #f5f5f5;
+}
+
+
+
+section {
     padding: 100px 5%;
 }
 
 .product_form {
     vertical-align: top;
     background: #fff;
-    width: 630px;
-    height: 260px;
+    max-width: 765px;
+    width: 100%;
+    height: auto;
     display: inline-block;
     border-radius: 5px;
     box-shadow: 1px gray;
+    margin-bottom: 30px;
+    
 }
 
 .product_info {
@@ -21,5 +32,128 @@ section {
     height: 195px;
     display: inline-block;
     border-radius: 5px;
-    box-shadow: 1px gray;
+    box-shadow: 1px #ecebeb;
 }
+
+form {
+    padding: 20px 10px;
+    float: left;
+}
+
+input.search_pr {
+    width: 615px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ecebeb;
+}
+
+.clear {
+    clear: both;
+}
+
+button.submit {
+    padding: 11px 30px;
+    font-size: 15px;
+    margin-left: -10px;
+    background: #5d85ce;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+}
+
+table.product_t {
+    width: 100%;
+}
+
+td {
+    padding: 10px 10px;
+    border-top: 1px solid #ecebeb;
+    list-style: none;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+button.add {
+        border-radius: 50%;
+    background: #97d279;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    font-size: 22px;
+    position: relative;
+    top: 3px;
+    line-height: 0.7;
+}
+
+button.remove {
+    border-radius: 50%;
+    background: #d27979;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    font-size: 22px;
+    position: relative;
+    top: 3px;
+}
+
+input.number {
+    width: 24px;
+    height: 24px;
+    background: #f5f5f5;
+    text-align: center;
+    border: 0px;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+button.buy {
+    background: #f5f5f5;
+    border: 1px solid #d27979;
+    border-radius: 3px;
+    text-align: center;
+    padding: 7px 14px;
+}
+
+button.delete {
+    background: #ca0000;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 8px 12px;
+    line-height: 1.5;
+}
+
+.row {
+    border-bottom: 1px solid #ecebeb;
+    padding: 20px 10px;
+}
+
+span {
+    background: #e8e6e6;
+    border-radius: 3px;
+    padding: 10px 5px;
+    font-size: 12px;
+}
+
+span.tag {
+    color: #fff;
+    background: orange;
+    padding: 3px 7px;
+    border-radius: 50%;
+}
+
+h3 {
+    margin: 0;
+}
+
