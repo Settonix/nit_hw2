@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>JS Buylist</title>
-    <link rel="stylesheet" type="" href="./styles.css">
+    <link rel="stylesheet" type="text/css"  href="./styles.css">
+    <link rel="stylesheet" type="text/css" media="print" href="./on-print.css">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
         <div class="product_form">
             <form class="search">
                 <input class="search_pr" type="text" name="pr_search" placeholder="Назва товару">
-                <button class="submit" type="submit">Додати</button>
+                <button class="submit tooltip" type="submit" data-tooltip="Tooltip">Додати</button>
             </form>
             <div class="clear"></div>
     
@@ -21,41 +22,41 @@
                 <td>Помідори</td>
                 
                 <td class="center-align">
-                    <button class="remove">-</button>
+                    <button class="remove tooltip" data-tooltip="Tooltip">-</button>
                     <input class="number" placeholder="1" type="text">
-                    <button class="add">+</button>
+                    <button class="add tooltip" data-tooltip="Tooltip">+</button>
                 </td>
                 <td class="right-align">
-                    <button class="buy">Куплено</button>
-                    <button class="delete">x</button>
+                    <button class="buy tooltip" data-tooltip="Tooltip">Куплено</button>
+                    <button class="delete tooltip" data-tooltip="Tooltip">x</button>
                 </td>
-            </tr>
+            <tr>
                 
             <tr>
                 <td>Печиво</td>
                 <td class="center-align">
-                    <button class="remove">-</button>
+                    <button class="remove tooltip" data-tooltip="Tooltip">-</button>
                     <input class="number" placeholder="1" type="text">
-                    <button class="add">+</button>
+                    <button class="add tooltip" data-tooltip="Tooltip">+</button>
                 </td>
                 <td class="right-align">
-                    <button class="buy">Куплено</button>
-                    <button class="delete">x</button>
+                    <button class="buy tooltip" data-tooltip="Tooltip">Куплено</button>
+                    <button class="delete tooltip" data-tooltip="Tooltip">x</button>
                 </td>
-            </tr>
+            <tr>
                 
             <tr>
                 <td>Сир</td>
                 <td class="center-align">
-                    <button class="remove">-</button>
+                    <button class="remove tooltip" data-tooltip="Tooltip">-</button>
                     <input class="number" placeholder="1" type="text">
-                    <button class="add">+</button>
+                    <button class="add tooltip" data-tooltip="Tooltip">+</button>
                 </td>
                 <td class="right-align">
-                    <button class="buy">Куплено</button>
-                    <button class="delete">x</button>
+                    <button class="buy tooltip" data-tooltip="Tooltip">Куплено</button>
+                    <button class="delete tooltip" data-tooltip="Tooltip">x</button>
                 </td>
-            </tr>
+            <tr>
         </table>
             </div>
         <div class="product_info">
@@ -71,7 +72,13 @@
             <h3>Куплено</h3>
             </div>
             
-        </div>
+            </div>
     </section>
+    
+    <div class="badge">
+        <h4 class="noprint">Buy list</h4>
+            <p>Created by:<br>
+            Alexandra Bitaeva</p>
+    </div>
 </body>
 </html>
